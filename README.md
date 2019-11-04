@@ -1,4 +1,6 @@
 char data;
+
+
 void setup()
 {
 Serial.begin(9600);
@@ -18,7 +20,6 @@ else if(data=='0')
 digitalWrite(8,LOW);
 }
 }
-
 
 
 
